@@ -1,0 +1,27 @@
+{
+    "ping": {
+        "name": "핑",
+        "description": "해피트리봇의 응답 시간을 확인합니다.",
+        "result": {
+            "pong": "🏓 퐁!",
+            "discord_api_latency": "디스코드 API 응답 속도"
+        }
+    },
+    "dev_check": {
+        "name": "개발자",
+        "description": "해피트리봇의 개발자를 확인합니다.",
+        "result": {
+            "title_devs": "해피트리봇 개발자들"
+        }
+    },
+    "info": {
+        "name": "정보",
+        "description": "해피트리봇의 정보를 확인합니다.",
+        "result": {
+            "this_shard_info": "`이 서버는 샤드 #{{shard}}번에 속해있어요!`\n",
+            "shard_ping_info": "샤드 #{{shard}}: {{ping}}ms\n",
+            "title_embed": "{{bot}} 정보",
+            "description_embed": "> 웹사이트 : https://htb.htlab.kr\n> 총 서버 수 : {{guilds}}\n> 총 유저 수 : {{users}}\n\n{{text}}"
+        }
+    }
+}
